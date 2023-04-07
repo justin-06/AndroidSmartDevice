@@ -21,6 +21,9 @@
         android:theme="@style/Theme.AndroidSmartDevice"
         tools:targetApi="31">
         <activity
+            android:name=".DeviceActivity"
+            android:exported="false" />
+        <activity
             android:name=".ScanActivity"
             android:exported="false" />
         <activity
